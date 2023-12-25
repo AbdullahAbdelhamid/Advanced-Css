@@ -415,8 +415,9 @@ body,
 /* clients */
 .clients__opinions {
   grid-column: 1/-1;
-  font-size: var(--font-size-40);
+  font-size: var(--font-size-38);
   line-height: 1.7;
+  column-gap: 5rem;
 }
 .clients__wrapper {
   display: flex;
@@ -498,6 +499,12 @@ html:has(.toggle__checkbox:checked) {
   --color-input-border: var(--color-white);
   .footer {
     border-top: 0.1rem solid white;
+  }
+  .navigation__list {
+    color: white;
+  }
+  .navigation {
+    background-color: #000;
   }
 }
 /* end darkmode */
